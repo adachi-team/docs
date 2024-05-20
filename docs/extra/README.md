@@ -112,7 +112,7 @@ wsApiServer: 127.0.0.1:8080/api
 使用docker进行部署
 
 ```bash
-docker run -td -p 8081:8081 -v /path-to-data:/app/data -e UID=$UID -e GID=$(id -g) ghcr.io/konatadev/lagrange.onebot:edge
+docker run -itd -p 8081:8081 -v /path-to-data:/app/data -e UID=$UID -e GID=$(id -g) ghcr.io/konatadev/lagrange.onebot:edge
 ```
 首次运行提示 `Please Edit the appsettings.json to set configs and press any key to continue` ，请参考[文档](https://github.com/LagrangeDev/Lagrange.Core/blob/master/Docker_zh.md)
 
@@ -152,7 +152,7 @@ wsApiServer: server-IPv4:8081/api
 
 配置完成后进入刚才启动的docker容器（账号密码登录）或直接打印容器logs（扫码登录），按提示进行登录操作
 ```bash
-docker exec -it <container_id_or_name> /bin/bash
+docker attach <container_id_or_name>
 or
 docker logs <container_id_or_name>
 ```
