@@ -10,7 +10,7 @@
         <a href="https://docs.adachi.top" target="_blank">官方文档</a> &nbsp;|&nbsp;
         <a href="https://docs.adachi.work" target="_blank">非官方文档</a> &nbsp;|&nbsp;
         <a href="https://github.com/SilveryStar/Adachi-Plugin" target="_blank">插件库</a> &nbsp;|&nbsp;
-        <a href="https://github.com/MarryDream/adachi-genshin-plugin">原神插件</a>
+        <a href="https://github.com/MarryDream/adachi-genshin-plugin">原神插件</a> &nbsp;|&nbsp;
         <a href="https://github.com/SilveryStar/Adachi-BOT/issues/146">关于频道</a>
     </div>
     <small>&gt; 集成多种基础功能，易开发拓展的聊天机器人框架 &lt;</small>
